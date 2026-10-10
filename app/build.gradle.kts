@@ -51,6 +51,16 @@ dependencies {
     // Dependencia para Cloud Firestore y Firebase Auth
     implementation("com.google.firebase:firebase-firestore-ktx")
     implementation("com.google.firebase:firebase-auth-ktx")
+    
+    // Iconos Material (Extended)
+    implementation("androidx.compose.material:material-icons-extended")
+    
+    // Navegación en Jetpack Compose
+    implementation("androidx.navigation:navigation-compose:2.8.3")
+    
+    // ViewModels y Lifecycle
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.6")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.6")
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     androidTestImplementation(libs.androidx.espresso.core)
